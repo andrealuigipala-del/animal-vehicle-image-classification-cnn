@@ -39,6 +39,67 @@ The test set was kept separate and was not downsampled, preserving its original 
 
 The implementation was developed using **Python, TensorFlow/Keras, NumPy and Matplotlib**, with Scikit-learn used for selected evaluation metrics.
 
+## Installation & Usage
+
+### 1. Clone the repository
+
+Clone the repository and move into the project directory.
+
+    git clone <repository-url>
+    cd animal-vehicle-classification-cnn
+
+### 2. Create a virtual environment
+
+It is recommended to use a virtual environment to keep the project dependencies isolated.
+
+    python -m venv venv
+
+Activate the virtual environment:
+
+**Windows:**
+
+    venv\Scripts\activate
+
+**macOS / Linux:**
+
+    source venv/bin/activate
+
+### 3. Install the dependencies
+
+Install all required Python packages using the `requirements.txt` file:
+
+    pip install -r requirements.txt
+
+The `requirements.txt` file contains all the libraries required to run the Python implementation.
+
+### 4. Run the Python script
+
+The main implementation is located in the `main/` directory.
+
+    python main/animal_vehicle_classification.py
+
+### 5. Run the notebook
+
+The complete experimentation workflow is available in the `notebook/` directory.
+
+The notebook can be opened with **Google Colab** or **Jupyter Notebook**.
+
+If using Jupyter Notebook locally:
+
+    jupyter notebook
+
+Then open the notebook located in:
+
+    notebook/
+    └── Deep_learning_e_reti_neurali_artificiali_project.ipynb
+
+### Dataset
+
+The CIFAR-10 dataset is automatically downloaded through TensorFlow/Keras when the notebook or Python script is executed.
+
+No manual dataset download is required.
+
+
 ### Dataset Preparation
 
 The CIFAR-10 dataset is loaded directly through the TensorFlow/Keras API.
