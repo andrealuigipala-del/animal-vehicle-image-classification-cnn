@@ -1,9 +1,3 @@
-Sì, e per un portfolio AI Engineer secondo me è importante. Il README non dovrebbe limitarsi a spiegare il problema: deve far capire cosa hai effettivamente implementato nel codice.
-
-Nel tuo caso ci sono diversi aspetti tecnici interessanti che meritano di essere esplicitati: TensorFlow/Keras, preprocessing CIFAR-10, conversione multiclass → binary classification, bilanciamento, augmentation, due architetture CNN, salvataggio/caricamento dei pesi, threshold analysis e confronto dei modelli.
-
-Aggiungerei quindi una sezione Implementation subito dopo Approach. Puoi sostituire l'overview precedente con questa versione completa:
-
 ## Overview
 
 This project explores the development of a **Computer Vision system for automatic image classification**, designed to distinguish between **animals and vehicles** in an urban road environment.
